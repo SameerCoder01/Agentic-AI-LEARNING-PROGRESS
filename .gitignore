@@ -1,0 +1,21 @@
+# API keys and local configuration
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and local tools
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.vscode/
+
+# Generated local data
+chroma_db/
+.chroma/
+*.log
