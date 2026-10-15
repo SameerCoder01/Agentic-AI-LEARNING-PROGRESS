@@ -1,23 +1,16 @@
 # Agentic AI Learning Progress
 
-Daily Python practice while learning Agentic AI, retrieval-augmented generation (RAG), and tool calling.
+This repository tracks daily learning and hands-on Python practice in Agentic AI. It brings the exercises together in day-wise order to make it easy to revisit concepts and follow the learning progress.
 
-The folder contains earlier practice scripts and learning code through Day 15. Day filenames use two-digit day numbers (`Day02`, `Day03`, ..., `Day15`) so GitHub displays the exercises in day order, matching the reference repository.
+## What this repository covers
 
-## Source
+- Working with language models using Gemini, Groq, and Ollama.
+- Processing PDF documents and splitting text into chunks.
+- Creating embeddings and searching with ChromaDB and BM25.
+- Building retrieval-augmented generation (RAG) workflows with hybrid search and reranking.
+- Improving answers through query rewriting, citations, and evaluation.
+- Learning tool calling with practical Python examples.
 
-Day 8 matches the original reference. Day 9–15 scripts were copied from [munixdelta/AGENTIC_AI_IN_TRIAL](https://github.com/munixdelta/AGENTIC_AI_IN_TRIAL). Day filenames match the reference repository. Credit for the imported learning examples belongs to the original author.
+## Purpose
 
-Reference commit: `2cc4b0ac6d50b17fbc20c5a7c6d839c753bf4223`.
-
-## Local setup
-
-Use a Python environment with the packages imported by the exercise you want to run. Some exercises use Gemini, some use Groq, and earlier exercises may use Ollama. Keep the required `GEMINI_API_KEY` or `GROQ_API_KEY` in a local `.env` file. API keys and virtual environments are excluded from Git.
-
-Run exercises from this folder so the relative `documents/` path resolves, for example:
-
-```powershell
-python Day15-1.py
-```
-
-The scripts were checked for Python syntax before upload. Live API calls and model downloads were not run as part of the import.
+The goal is to understand these concepts by writing and exploring small examples, then gradually build towards AI applications that can retrieve information and use tools.
